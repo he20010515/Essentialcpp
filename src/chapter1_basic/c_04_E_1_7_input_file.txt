@@ -1,0 +1,5 @@
+this is a basic plain text file
+line 2
+line 4
+中文测试
+Emoji 测试 🤣

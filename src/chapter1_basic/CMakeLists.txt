@@ -1,0 +1,4 @@
+add_executable(c_01_Array_and_Vector c_01_Array_and_Vector.cpp)
+add_executable(c_02_E_1_5 c_02_E_1_5.cpp)
+add_executable(c_03_E_1_6 c_03_E_1_6.cpp)
+add_executable(c_04_E_1_7 c_04_E_1_7.cpp)
