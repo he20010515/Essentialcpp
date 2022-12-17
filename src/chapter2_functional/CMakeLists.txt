@@ -1,0 +1,3 @@
+add_executable(c_05_Functional_fib c_05_Functional_fib.cpp)
+add_executable(c_06_Bubble_sort c_06_Bubble_sort.cpp)
+add_executable(c_07_E_2_6 c_07_E_2_6.cpp)
