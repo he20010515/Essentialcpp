@@ -1,3 +1,6 @@
 add_executable(c_08_generic c_08_generic.cpp)
 add_executable(c_09_iterator c_09_iterator.cpp)
 add_executable(c_10_iterator c_10_iterator.cpp)
+add_executable(c_11_linear_container c_11_linear_container.cpp)
+add_executable(c_12_generic_algorithm c_12_generic_algorithm.cpp)
+add_executable(c_13_desigin_a_filter c_13_desigin_a_filter.cpp)
