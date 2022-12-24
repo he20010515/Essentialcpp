@@ -1,0 +1,1 @@
+add_executable(c_18_define_a_class c_18_define_a_class.cpp)
