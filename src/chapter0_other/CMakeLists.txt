@@ -14,3 +14,6 @@ message(STATUS "Python3_LIBRARIES = ${Python3_LIBRARIES}")
 add_executable(cpp_withpython cpp_withpython.cpp)
 target_include_directories(cpp_withpython PRIVATE ${Python3_INCLUDE_DIRS})
 target_link_libraries(cpp_withpython ${Python3_LIBRARIES})
+
+
+add_executable(other3 branch_predictor.cpp)

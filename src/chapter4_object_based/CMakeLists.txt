@@ -1,4 +1,6 @@
 add_executable(c_18_define_a_class c_18_define_a_class.cpp)
 add_executable(c_20_constructor_destructro c_20_constructor_destructro.cpp)
 add_executable(c_21_constructor_initize_list c_21_constructor_initize_list.cpp)
+add_executable(c_22_class_cookbook c_22_class_cookbook.cpp)
+add_executable(c_23_operator_reload c_23_operator_reload.cpp)
 add_subdirectory(c_19_E_4_1)

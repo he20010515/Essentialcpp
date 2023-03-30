@@ -2,12 +2,20 @@
  * @Author: heyuwei he20010515@163.com
  * @Date: 2022-12-24 15:09:56
  * @LastEditors: heyuwei he20010515@163.com
- * @LastEditTime: 2023-01-14 00:49:59
+ * @LastEditTime: 2023-03-23 14:28:58
  * @FilePath: /Essentialcpp/src/chapter4_object_based/c_19_E_4_1/main.cpp
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
  */
 #include "Stack.hpp"
 #include <iostream>
+
+template <typename T>
+T sum(std::vector<T> iterable, T start = 0)
+{
+    for (auto &&i : iterable)
+        start += i;
+    return start;
+}
 
 int main(int argc, char const *argv[])
 {

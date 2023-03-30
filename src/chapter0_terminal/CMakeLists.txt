@@ -1,0 +1,1 @@
+add_executable(terminal_flusher terminal_flusher.cpp)
